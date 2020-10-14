@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text">27sp</dimen>
+    <dimen name="layout_margin">1sp</dimen>
+    <dimen name="elevation">5sp</dimen>
+    <dimen name="margin_top">2sp</dimen>
+</resources>
