@@ -1,15 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.marianamontano.petface">
+    <uses-permission android:name="android.permission.INTERNET"></uses-permission>
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.AppCompat.Light.NoActionBar">
-        <activity android:name=".ajustes"></activity>
+        <activity android:name=".ajustes"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity android:name=".about"
+            android:parentActivityName=".MainActivity"></activity>
         <activity android:name=".preferido"
             android:parentActivityName=".MainActivity">
             <meta-data

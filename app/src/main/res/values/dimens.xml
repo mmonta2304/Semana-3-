@@ -4,4 +4,6 @@
     <dimen name="layout_margin">1sp</dimen>
     <dimen name="elevation">5sp</dimen>
     <dimen name="margin_top">2sp</dimen>
+    <dimen name="name_formulario">30sp</dimen>
+    <dimen name="elevacion_actionbar">4dp</dimen>
 </resources>
